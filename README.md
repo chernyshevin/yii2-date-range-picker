@@ -18,13 +18,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install, either run
 
 ```
-$ php composer.phar require jino5577/yii2-date-range-picker "*"
+$ php composer.phar require chernyshevin/yii2-date-range-picker "*"
 ```
 
 or add
 
 ```
-"jino5577/yii2-date-range-picker": "*"
+"chernyshevin/yii2-date-range-picker": "*"
 ```
 
 to the ```require``` section of your `composer.json` file.
@@ -33,7 +33,7 @@ to the ```require``` section of your `composer.json` file.
 
 ```php
 
-use jino5577\daterangepicker\DateRangePicker;
+use chernyshevin\daterangepicker\DateRangePicker;
 
 echo DateRangePicker::widget([
     'model'     => $model,
