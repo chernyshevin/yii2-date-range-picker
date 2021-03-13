@@ -6,7 +6,7 @@
  * @version 1.0.0
  */
 
-namespace jino5577\daterangepicker;
+namespace chernyshevin\daterangepicker;
 
 use yii\web\AssetBundle;
 
@@ -39,7 +39,7 @@ class DateRangePickerAsset extends AssetBundle
     public $depends = [
         'yii\web\JqueryAsset',
         'yii\bootstrap4\BootstrapAsset',
-        'jino5577\daterangepicker\MomentAsset'
+        'chernyshevin\daterangepicker\MomentAsset'
     ];
 
 
