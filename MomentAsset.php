@@ -1,17 +1,18 @@
 <?php
 
 /**
- * @copyright Copyright &copy; Dmitrij Butko, <jino5577@gmail.com>, 2015
+ * @copyright Copyright &copy; Dmitrij Butko, <j.f.kollegry@yandex.ru>, 2021
  * @package yii2-date-range-picker
  * @version 1.0.0
  */
 
-namespace jino5577\daterangepicker;
+namespace chernyshevin\daterangepicker;
 
 use yii\web\AssetBundle;
 
 /**
  * MomentAsset bundle
+ * @first-author Dmitrij Butko
  * @author Dmitrij Butko
  */
 class MomentAsset extends AssetBundle
